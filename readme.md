@@ -30,11 +30,8 @@ TDK（title description keywords）三大标签seo（搜索引擎）优化
 title:网站名+网站简介
 description:说明
 keywords:6-8个 由专业人员提供TDK文本
-- 使用开发常用类名，复习伪元素，字体图标的用法
-- 完成快捷导航栏 logo的seo优化：有h1标签，链接（logo是背景图），不显示的文字，链接带有title属性。
-- 完成header布局，复习content box和border box。
-- 制作nav
-- 注册页面不需要seo优化，它比较隐私
+忙完小论文重新扬帆起航。使用开发常用类名，复习伪元素，字体图标的用法，完成快捷导航栏 logo的seo优化：有h1标签，链接（logo是背景图），不显示的文字，链接带有title属性。完成header布局，复习content box和border box。
+制作nav
 ## 📚 学习收获
 - 熟悉常用 HTML 标签与语义化结构
 - 掌握 Flexbox/Grid 布局的使用场景与组合方式
@@ -59,7 +56,5 @@ keywords:6-8个 由专业人员提供TDK文本
 - 商品添加到购物车
 - 菜单折叠展开
 - 表单验证与提交
-
-
 
 ---
