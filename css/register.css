@@ -1,0 +1,159 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    height: 84px;
+    border-bottom: 2px solid #b1191a;
+}
+
+header .logo {
+    padding-top: 18px;
+    /* margin会塌缩把header往下移 */
+}
+
+.register_area {
+    height: 522px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.register_area h3 {
+    height: 42px;
+    background-color: #ececec;
+    border-bottom: 1px solid #ccc;
+    line-height: 42px;
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.register_area h3 .login {
+    float: right;
+    font-size: 14px;
+}
+
+.login a {
+    color: #c81523;
+}
+
+.reg_form {
+    width: 600px;
+    margin: 50px auto 0;
+}
+
+.reg_form ul li {
+    margin-bottom: 20px;
+}
+
+.reg_form ul li label {
+    /* 右对齐要给它宽度 */
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+
+.reg_form ul li .inp {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+}
+
+.reg_form ul li .error {
+    color: #c81523;
+}
+
+.error_icon,
+.success_icon {
+    display: inline-block;
+    width: 20px;
+    vertical-align: middle;
+    height: 20px;
+    background: url('../images/error.png') no-repeat;
+    margin-top: -2px;
+}
+
+.success {
+    color: green;
+}
+
+.success_icon {
+    background: url('../images/success.png') no-repeat;
+
+}
+
+.safe {
+    padding-left: 170px;
+}
+
+.safe em {
+    padding: 0 12px;
+    color: #fff;
+}
+
+.safe .r {
+    background-color: #de1111;
+}
+
+.safe .z {
+    background-color: #40b83f;
+}
+
+.safe .q {
+    background-color: #f79100;
+}
+
+.agree,
+.reg_form ul li:last-child {
+    padding-left: 90px;
+}
+
+.agree input {
+    vertical-align: middle;
+}
+
+.agree a {
+    color: skyblue;
+}
+
+.btn {
+    width: 200px;
+    height: 34px;
+    background-color: #c81523;
+    font-size: 14px;
+    color: #fff;
+}
+
+.footer {
+    height: 420px;
+    background-color: #f5f5f5;
+    /* 内容和上边有距离,给个padding */
+    padding: 30px;
+}
+
+
+.mod_copyright {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.mod_copyright .links {
+    margin-bottom: 15px;
+}
+
+.mod_copyright .links a {
+    padding: 0 15px;
+    font-size: 12px;
+    border-right: 1px solid #a4a3a3;
+}
+
+.mod_copyright .links a:nth-last-child(1) {
+    border-right: none;
+}
+
+.mod_copyright .copyright {
+    font-size: 12px;
+    line-height: 15px;
+}
